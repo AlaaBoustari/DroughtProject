@@ -1,0 +1,34 @@
+{
+  "boundary": "https://media.githubusercontent.com/media/wmgeolab/geoBoundaries/9469f09/releaseData/gbOpen/MAR/ADM1/geoBoundaries-MAR-ADM1.geojson",
+  "license": "geoBoundaries / OpenStreetMap ODbL attribution required",
+  "selection": "MERRA-2 0.5 latitude x 0.625 longitude grid rectangles intersecting Marrakech\u2013Safi; boundary cells can have centres outside region",
+  "history": "1995 supplies lag context; target months 1997\u20132025; training weather normals start 1996",
+  "scope": "rainfall only; existing point rainfall/SPI artifacts unchanged",
+  "model": "same 200-tree absolute-error RF, depth 3, leaf 5, seed 42; no tuning",
+  "forecast": "next calendar month, issued preceding month day 25, simulated 5-day delay",
+  "validation": [
+    [
+      2016,
+      2017
+    ],
+    [
+      2018,
+      2019
+    ],
+    [
+      2020,
+      2021
+    ],
+    [
+      2022,
+      2023
+    ]
+  ],
+  "benchmark": [
+    2024,
+    2025
+  ],
+  "warning": "known benchmark, not blind; dates shared across cells; correlated cells are not independent weather events; no spatial holdout; cell-mean MAE is not error of region-average rainfall",
+  "elevation": "NASA source elevation, not precise farm elevation",
+  "variants": "controlled ablation of coordinates and elevation using same cells, years and weather inputs"
+}

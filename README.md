@@ -1,7 +1,7 @@
 # Marrakech rainfall and SPI
 
 Monthly rainfall and direct SPI-3 prediction for one Marrakech point.
-Both use the existing MAE Random Forest. Other weather models are teammate work.
+Both use the existing MAE Random Forest. 
 
 ## Run
 
@@ -58,3 +58,7 @@ latest common usable date in the supplied daily history. Pass cached history
 combined with newly fetched records; the same model supports changing cutoffs.
 The included demo supplies records through November 20 on November 25, 2025.
 Publication delays in historical evaluation are simulated, not measured releases.
+
+## Marrakech–Safi regional rainfall
+
+`uv run python -m droughtproject.regional` downloads 22 overlapping NASA cells and compares one shared rainfall forest with/without coordinates and source elevation. Tables and scores: `findings/regional/`. Uses next-month forecasts issued on day 25 with a simulated five-day data delay. SPI remains the single-point prototype.
