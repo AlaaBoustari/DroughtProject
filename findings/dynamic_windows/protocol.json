@@ -1,0 +1,44 @@
+{
+  "issue_days": [
+    5,
+    10,
+    15,
+    20,
+    25
+  ],
+  "simulated_publication_delays_days": [
+    3,
+    5,
+    7
+  ],
+  "target": "Next calendar month total rainfall or ending-month SPI-3",
+  "selection": "Fixed existing MAE Random Forest; no hyperparameter/benchmark tuning",
+  "validation": [
+    [
+      2016,
+      2017
+    ],
+    [
+      2018,
+      2019
+    ],
+    [
+      2020,
+      2021
+    ],
+    [
+      2022,
+      2023
+    ]
+  ],
+  "known_benchmark": [
+    2024,
+    2025
+  ],
+  "training": "Every snapshot for a target month stays in the same chronological split. Training labels end by earliest evaluation cutoff.",
+  "counts": "Snapshots share monthly answers; report unique target months, not independent sample claims.",
+  "normals": "Training-only daily month-of-year averages; rolling-window expected rainfall sums daily normals across the actual window",
+  "nao": "Latest monthly value assumed available 15 days after month end; no future interpolation",
+  "comparison": "Calendar model refitted using same allowed target-label months; intended for issue day 10 onwards, not a valid available baseline for day 5",
+  "caveats": "Historical publication delays simulated, not vintage releases. Revised observations. Existing known 2024\u20132025 benchmark, not blind. One point only."
+}

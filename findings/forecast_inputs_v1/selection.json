@@ -1,0 +1,31 @@
+{
+  "selected_overall": "long_history_engineered_control",
+  "selected_forecast_ml": "forecast_gb_mae_engineered",
+  "fold_counts": [
+    {
+      "fold": [
+        2021,
+        2021
+      ],
+      "fit_rows": 22,
+      "target_rows": 12
+    },
+    {
+      "fold": [
+        2022,
+        2022
+      ],
+      "fit_rows": 34,
+      "target_rows": 12
+    },
+    {
+      "fold": [
+        2023,
+        2023
+      ],
+      "fit_rows": 46,
+      "target_rows": 12
+    }
+  ],
+  "benchmark_fit_rows": 58
+}

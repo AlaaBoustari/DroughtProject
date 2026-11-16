@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "target": "rainfall",
+  "units": "mm/month",
+  "model": "random_forest_absolute_error",
+  "model_parameters": {
+    "trees": 200,
+    "max_depth": 3,
+    "min_samples_leaf": 5,
+    "seed": 42
+  },
+  "location": {
+    "name": "Marrakech demonstration point",
+    "latitude": 31.6295,
+    "longitude": -7.9811
+  },
+  "status": "experimental",
+  "feature_columns": [
+    "rainfall_latest_mm",
+    "rainfall_previous_mm",
+    "rainfall_older_mm",
+    "rainfall_three_month_total_mm",
+    "rainfall_same_month_last_year_mm",
+    "month_sin",
+    "month_cos",
+    "recent_rainy_days",
+    "recent_dry_spell",
+    "pressure_change",
+    "humidity_change",
+    "nao_season_sin",
+    "nao_season_cos",
+    "climate_nao",
+    "rainfall_anomaly",
+    "temperature_anomaly"
+  ],
+  "trained_targets_through": "2023-11-01",
+  "validation_windows": [
+    [
+      2016,
+      2017
+    ],
+    [
+      2018,
+      2019
+    ],
+    [
+      2020,
+      2021
+    ],
+    [
+      2022,
+      2023
+    ]
+  ],
+  "known_benchmark": [
+    2024,
+    2025
+  ],
+  "benchmark_warning": "Previously inspected years; not a new blind test.",
+  "spi_reference_period": [
+    "1982-01-01",
+    "2011-12-01"
+  ],
+  "forecast_rule": "Target next calendar month on preceding month's 10th; observations through target minus two months.",
+  "nao_availability": "Assumed month-end +15 days; rainfall feature only; revised historical index, no release-vintage replay.",
+  "created_at_utc": "2026-11-15T18:28:47.729009+00:00",
+  "versions": {
+    "python": "3.14.6",
+    "scikit_learn": "1.9.1",
+    "pandas": "3.1.1",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0"
+  },
+  "metrics": [
+    {
+      "target": "rainfall",
+      "split": "rolling_validation",
+      "approach": "model",
+      "n": 96,
+      "mae": 17.42593385416666,
+      "rmse": 25.20836269236935,
+      "bias": -2.123720312500011
+    },
+    {
+      "target": "rainfall",
+      "split": "rolling_validation",
+      "approach": "seasonal_mean",
+      "n": 96,
+      "mae": 17.912231575067445,
+      "rmse": 25.107969996790196,
+      "bias": 0.3435976675707444
+    },
+    {
+      "target": "rainfall",
+      "split": "rolling_validation",
+      "approach": "seasonal_median",
+      "n": 96,
+      "mae": 17.355416666666667,
+      "rmse": 25.11964389427127,
+      "bias": -4.474791666666666
+    },
+    {
+      "target": "rainfall",
+      "split": "rolling_validation",
+      "approach": "persistence",
+      "n": 96,
+      "mae": 25.938541666666666,
+      "rmse": 36.79605832603994,
+      "bias": -0.0024999999999995026
+    },
+    {
+      "target": "rainfall",
+      "split": "known_benchmark",
+      "approach": "model",
+      "n": 24,
+      "mae": 16.16255312499999,
+      "rmse": 27.682627895747203,
+      "bias": 0.5547781249999844
+    },
+    {
+      "target": "rainfall",
+      "split": "known_benchmark",
+      "approach": "seasonal_mean",
+      "n": 24,
+      "mae": 17.83086419753086,
+      "rmse": 29.111418471618727,
+      "bias": 2.5858357075023743
+    },
+    {
+      "target": "rainfall",
+      "split": "known_benchmark",
+      "approach": "seasonal_median",
+      "n": 24,
+      "mae": 16.249166666666667,
+      "rmse": 27.918611623789598,
+      "bias": -2.1349999999999985
+    },
+    {
+      "target": "rainfall",
+      "split": "known_benchmark",
+      "approach": "persistence",
+      "n": 24,
+      "mae": 24.34,
+      "rmse": 38.58988878795411,
+      "bias": -6.922499999999999
+    }
+  ]
+}

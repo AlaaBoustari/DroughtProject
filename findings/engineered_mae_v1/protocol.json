@@ -1,0 +1,32 @@
+{
+  "folds": [
+    [
+      2016,
+      2017
+    ],
+    [
+      2018,
+      2019
+    ],
+    [
+      2020,
+      2021
+    ],
+    [
+      2022,
+      2023
+    ]
+  ],
+  "known_benchmark": [
+    2024,
+    2025
+  ],
+  "selection": "Lowest pooled rolling-validation MAE, including mean/median/persistence references; no benchmark tuning",
+  "features": "Rain/temp departures from training-only seasonal means, lag2-minus-lag3 pressure/humidity, >=1mm rainy-day count, longest <1mm dry run within source period, NAO times seasonal sine/cosine, plus original inputs",
+  "training_only": "Seasonal feature normals fitted on observed periods ending by each fold cutoff; target mean/median only fitted target labels",
+  "forest": "200 trees/depth3/minleaf5/seed42; mean and absolute-error variants",
+  "boosting": "absolute_error,150 iterations,learning_rate .05,max_leaf_nodes7,min_samples_leaf12,l2=5,seed42,early_stopping=False",
+  "residual": "Boosting target minus training calendar-month mean; add mean back and floor at zero",
+  "issue_timing": "Identical original monthly/weekly delayed-input cutoffs; NOAA index assumptions inherited from extended experiment",
+  "caveat": "Retrospective revised observations; 2024\u20132025 already examined, not a blind test. More candidates increase selection uncertainty."
+}

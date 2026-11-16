@@ -1,0 +1,30 @@
+{
+  "source": "NOAA CFSv2 operational forecast archive, noaa-cfs-pds S3",
+  "forecast": "Four member-01 runs, 00/06/12/18 UTC on first day of previous month; calendar-month PRATE mean converted to total mm",
+  "issue": "10th of previous month, nine days after initialization; not the instantaneous publication time",
+  "forecast_coverage": [
+    "2019-02",
+    "2025-12"
+  ],
+  "folds": [
+    [
+      2021,
+      2021
+    ],
+    [
+      2022,
+      2022
+    ],
+    [
+      2023,
+      2023
+    ]
+  ],
+  "known_benchmark": [
+    2024,
+    2025
+  ],
+  "selection": "Pooled rolling validation MAE; all recipes fixed before scoring",
+  "comparison": "Every method scored on identical months. Short-history baselines use same fitted target months as calibrators; long-history baselines/control may use available 1997+ labels.",
+  "caveats": "Only four runs, not the full CFS ensemble. Different grid and model than NASA target estimates. Short calibration history; known benchmark. Monthly forecast experiment, not a weekly or monthly-nowcast experiment. No missing forecast substitution."
+}

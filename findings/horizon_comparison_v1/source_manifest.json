@@ -1,0 +1,272 @@
+[
+  {
+    "year": 1996,
+    "path": "data/raw/marrakech/1996.json",
+    "sha256": "e87b14db1e946bda83883eac7177607df03f0f67c0c219629795c2ed32ed069e",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 366
+  },
+  {
+    "year": 1997,
+    "path": "data/raw/marrakech/1997.json",
+    "sha256": "4bed1df814dfa40f6f5f3dffd7998d897eff5ec6626c3f6426c8108926eda000",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 1998,
+    "path": "data/raw/marrakech/1998.json",
+    "sha256": "1e260b150533b784fccd71e5fc535fe9fb0289bbf151f42183e26551079e28f2",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 1999,
+    "path": "data/raw/marrakech/1999.json",
+    "sha256": "f6fb57ce00b0e3c21fee52330b70a754b8b21fbeaa735219edc41d12df3d658b",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2000,
+    "path": "data/raw/marrakech/2000.json",
+    "sha256": "f0f3baecb1d3b9be8031fe272356f8e97f18981f1b74b88952b97fa6aaf77cc8",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 366
+  },
+  {
+    "year": 2001,
+    "path": "data/raw/marrakech/2001.json",
+    "sha256": "31f5be2046ecb26c24d422052abba59edd9ac1647709d65686c645c1525c18f1",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2002,
+    "path": "data/raw/marrakech/2002.json",
+    "sha256": "a1e5ec93cb0f49e127542c39a5d570faed15da28081791cdf0aa9ca43cfa5a2d",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2003,
+    "path": "data/raw/marrakech/2003.json",
+    "sha256": "2685ce5ddb0e5991368345fec122fca5c4433e36d9f91f3d0c7467c6e8c6d9d8",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2004,
+    "path": "data/raw/marrakech/2004.json",
+    "sha256": "22a66718f8052f5a5b569f241bed2ae31ae423f0e2e99fc09145a1c777d3626b",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 366
+  },
+  {
+    "year": 2005,
+    "path": "data/raw/marrakech/2005.json",
+    "sha256": "e123ddf3e40719dabf356c071a0238410466c321c1188be4f384560e50c57ca3",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2006,
+    "path": "data/raw/marrakech/2006.json",
+    "sha256": "ebfcb5d91239388a546957c467f900a07d46fc129cfcc331137e388efb385698",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2007,
+    "path": "data/raw/marrakech/2007.json",
+    "sha256": "94fc41c620e76b12163dbb324c17beb91311027d267e6475e42e005cdeec82ce",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2008,
+    "path": "data/raw/marrakech/2008.json",
+    "sha256": "e750f0bfa5e89f0c6caa654fcc7152845c8a9cf392e6fd877c55ce9cae925c7b",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 366
+  },
+  {
+    "year": 2009,
+    "path": "data/raw/marrakech/2009.json",
+    "sha256": "875f7af0f71d67b4e23e4faa8a308e2436ae28da474480affe308fecc6902cf8",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2010,
+    "path": "data/raw/marrakech/2010.json",
+    "sha256": "9a2d96618f1b704f04e48485d1e63bf6803eaa09751090c46e4f3d003e3cbc88",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2011,
+    "path": "data/raw/marrakech/2011.json",
+    "sha256": "84434c29a587d769c71e9b0d466dbbbc3669945501c1cbd26ed48ac3f2f6a786",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2012,
+    "path": "data/raw/marrakech/2012.json",
+    "sha256": "2f8889a33630c83421a88e66ff2948ba2c82c3bed93248698afc10037ce5b0d8",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 366
+  },
+  {
+    "year": 2013,
+    "path": "data/raw/marrakech/2013.json",
+    "sha256": "1f0cf5974b894d59d0a9ba4c1d1f340647642a84ca04037d6598702efb36b118",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2014,
+    "path": "data/raw/marrakech/2014.json",
+    "sha256": "a3f857517213b49c406ae2acc3837caf84dddd16483e50ba887b0595ccf60813",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2015,
+    "path": "data/raw/marrakech/2015.json",
+    "sha256": "a4afb4cd23afda9de365ac3303ae0505aee3111add6f6fec7f2cfd612dde6beb",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2016,
+    "path": "data/raw/marrakech/2016.json",
+    "sha256": "ee104b8eac39182e495881cb0f71722d20cd6fa6658a7fcfb66679c0ee468344",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 366
+  },
+  {
+    "year": 2017,
+    "path": "data/raw/marrakech/2017.json",
+    "sha256": "140f04ac3ed3ca549497a1b8e6cfb2b40ee84105290ff790c10804b735f0ab1e",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2018,
+    "path": "data/raw/marrakech/2018.json",
+    "sha256": "b1d2559c276a7f3537711afddf34d09d4de0d1de0104d089540db4b5bb8cc51e",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2019,
+    "path": "data/raw/marrakech/2019.json",
+    "sha256": "504c57d7bb25e6e099aadbf7de580f3f75d741a20793aa4f847d1b360f8333ad",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2020,
+    "path": "data/raw/marrakech/2020.json",
+    "sha256": "53c3b59342c70086849394bf6742d8f0f64ab29aafeaceffbcfbf4778d430ce0",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 366
+  },
+  {
+    "year": 2021,
+    "path": "data/raw/marrakech/2021.json",
+    "sha256": "8261839ecde55a1a7479d769e3bc89bad8720b9fee1d85e967717c950f0942c9",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2022,
+    "path": "data/raw/marrakech/2022.json",
+    "sha256": "1995b7a69b5856a17413458fcc956b65aea5ca59cdeaf151c7b85353ec250020",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2023,
+    "path": "data/raw/marrakech/2023.json",
+    "sha256": "7e7567e5af97903d53741d1db514417527904421d26d345c4b17856eeea19de7",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  },
+  {
+    "year": 2024,
+    "path": "data/raw/marrakech/2024.json",
+    "sha256": "3dee51233559b4c68eb23b7ce3830272c89c1781acd4705fb1e515fdefbc5e68",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 366
+  },
+  {
+    "year": 2025,
+    "path": "data/raw/marrakech/2025.json",
+    "sha256": "e5656bea69cd6ef74f27c4a582e2176e691e9f8387eaad224c0d7a3abd4bc7db",
+    "sources": [
+      "MERRA2"
+    ],
+    "days": 365
+  }
+]

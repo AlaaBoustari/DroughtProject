@@ -1,0 +1,28 @@
+{
+  "completed_utc": "2026-11-15T17:10:49.080474+00:00",
+  "protocol": {
+    "history": "1996\u20132025; Marrakech point 31.6295,-7.9811",
+    "validation": "2022\u20132023",
+    "known_benchmark": "2024\u20132025; repeatedly examined, not blind",
+    "selection": "Lowest validation MAE across predeclared feature sets and two fixed models; no tuning on benchmark",
+    "indices": [
+      "NAO atmospheric circulation",
+      "Nino3.4 SST anomaly",
+      "Tropical North Atlantic SST anomaly"
+    ],
+    "index_features": "Latest assumed-available monthly value and trailing 3-month mean for each index; no centered smoothing, interpolation, or backward fill",
+    "index_availability": "Assumed month-end + 15 days; not verified vintage release history. Latest available at issue date, source period must also end by weather input cutoff.",
+    "issue_dates": "Weekly target Monday; monthly 10th of preceding month",
+    "local_weather": "NASA T2M,RH2M,WS2M,PS,ALLSKY_SFC_SW_DWN: mean by target frequency, lag 2 and lag 3",
+    "feature_sets": [
+      "rainfall_only",
+      "rainfall_nao",
+      "rainfall_ocean",
+      "rainfall_climate",
+      "rainfall_weather",
+      "rainfall_all"
+    ],
+    "models": "Original scaled Ridge alpha=10, Random Forest 200 trees/depth3/leaf5/seed42",
+    "limitations": "Current revised indices and NASA archives; anomaly reference climatologies may include later years. Not an operational as-issued hindcast. No significance claims, no API replacement."
+  }
+}

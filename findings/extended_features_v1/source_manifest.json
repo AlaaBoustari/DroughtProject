@@ -1,0 +1,947 @@
+[
+  {
+    "name": "nao",
+    "url": "https://psl.noaa.gov/data/correlation/nao.data",
+    "sha256": "011b716136ff74961e14cb3215a3a57295d4d41be46b9e42b327ba863601cb46"
+  },
+  {
+    "name": "nino34",
+    "url": "https://psl.noaa.gov/data/correlation/nina34.anom.data",
+    "sha256": "521325224f795bb5f16fe4eceea8bb51a19d0d7a0fa1c8daa245d08526a0284e"
+  },
+  {
+    "name": "tna",
+    "url": "https://psl.noaa.gov/data/correlation/tna.data",
+    "sha256": "4eec8e293c601073994970ed06db95573283105b0de0210aefca078f9441b637"
+  },
+  {
+    "name": "weather_1996",
+    "sha256": "7c75526ea161bae92f3b54f6e9c0e87fb1a682cfc150f5805a069cd4ddbacb58",
+    "sources": [
+      "MERRA2",
+      "SRB",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_1997",
+    "sha256": "6f36839ec1d23dcf6948fa3ae764e9e840435ec863a9c96d1a988413480c0f94",
+    "sources": [
+      "MERRA2",
+      "SRB",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_1998",
+    "sha256": "8951a230612da57c0bb42878db44211ca5bfd4563d37a9f602186cbcb93ccfb2",
+    "sources": [
+      "MERRA2",
+      "SRB",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_1999",
+    "sha256": "18e8778d88d68e0ff66dab68ff65ba2e23b3d267fcbb99b8c1b2d40b27ee2f92",
+    "sources": [
+      "MERRA2",
+      "SRB",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2000",
+    "sha256": "14ea63189a6a01ec244a987f7995f9a3f790c18c58333cf1bfd5f4a4c4cf073c",
+    "sources": [
+      "MERRA2",
+      "SRB",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2001",
+    "sha256": "1cb5ec7f8ebb9728370c715365a304b1d4fba05cce49d0431d85c5b931a9c0b8",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2002",
+    "sha256": "c587f17c012f5cac080e4200a3a4d56d82f01fa0fddfc725a6c704a7862788a8",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2003",
+    "sha256": "499787098449af4e42d4bb38d55915d2a94bcc5699a7d86fba2d99bcf18b291b",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2004",
+    "sha256": "6b36fa4cf257f38150c2c58a0bc386971d6ea427b1dd618dc8ad1d7c74a38c6f",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2005",
+    "sha256": "4d910e118a5c9f26343014b667ad0d5f18af88868b049abfbfcb5348c8be7e0e",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2006",
+    "sha256": "7bb9df5bdc4e79b503d82ca0a88c2899d0173d0680012af854fef3e6e98cd9ee",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2007",
+    "sha256": "bc6cac7536a7421769d91e3d3a602b1bb68de9f14b361d7791c66236250967f7",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2008",
+    "sha256": "22b359d62d9b26f35cbf200cf0d6ba7d759ccc0ea66a55e31df0ca2a7827187c",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2009",
+    "sha256": "dddb8baacf8a0df17c596978a6a71850cdd231a0885a4e1dca77ce2d29bf6efb",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2010",
+    "sha256": "db0415b71d0abd2dcc3612c649ec02b01c69313f52c6dad88aafdb1df06155b1",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2011",
+    "sha256": "441e70b781b6f38492f5057ee6721cf7b2e9271cca3898d3117a9459b22b54d7",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2012",
+    "sha256": "6ba0f33a9d811fe188e28e03f14a0e67123f0519ae08083c4bac32802eb566b9",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2013",
+    "sha256": "9fb56e5f49528af4aaed718e0c567c3e56c9ea021d7428d12263305e958cd1f5",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2014",
+    "sha256": "b8d47ebbf37c855ae87ac93238a3d9d118efd5ecedda82cf87179ae3954f8037",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2015",
+    "sha256": "c34b86f8270fa74ddd36cbd63e8622d3e47e80d145ead736e8b3b308b6a03d73",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2016",
+    "sha256": "5150549f9e2b6bf9151073ac4b01cc86b706022b19f31a121b09f8b3b30b7804",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2017",
+    "sha256": "554425b70ca5d5dc35be0c602f19c727e4c6ef3e2b2ec0381546b9c17e25bdf8",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2018",
+    "sha256": "ea5d5660b3f188178cf4cf480805ef88695ab3c235e55d4ea4742fab90ea9178",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2019",
+    "sha256": "773df65eeb6eee873f30eb8edebcbc5da743dfd106760a80af4dc92b3ebdb22e",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2020",
+    "sha256": "a23b2debdb22e12f5b9fb1afde94a0bdebd3cf5595cafd9353aa548f68e21e0b",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2021",
+    "sha256": "12696e2e534e864e2de45f040ddad5fb8df32fe0211d53685f196c032fa7be22",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2022",
+    "sha256": "460e527c3ae85a47eec12f09c8e16a9fe375edf8c4629cd0f0bc6e9c3b1c335e",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2023",
+    "sha256": "b08db20d92af95058a17cac4f0a0434946fad428b5cb7a4ecf3621bfd436320e",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2024",
+    "sha256": "68a12b6a42a1da90c31898777f0066fdbc35be86e83879fa1fe0242c00d527f6",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  },
+  {
+    "name": "weather_2025",
+    "sha256": "acaccf70eebe5ea6f6641903fedd790b327bfd37f70088a544adcebd8c39f02b",
+    "sources": [
+      "MERRA2",
+      "SYN1DEG",
+      "POWER"
+    ],
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    }
+  }
+]

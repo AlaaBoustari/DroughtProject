@@ -1,0 +1,36 @@
+{
+  "location": {
+    "latitude": 31.6295,
+    "longitude": -7.9811
+  },
+  "archives": [
+    "1996-01-01/2025-12-31",
+    "2016-01-01/2025-12-31"
+  ],
+  "validation_target_years": [
+    2022,
+    2023
+  ],
+  "known_benchmark_target_years": [
+    2024,
+    2025
+  ],
+  "benchmark_warning": "Previously inspected years; exploratory benchmark, not a fresh blind test.",
+  "selection": "Lowest validation MAE among Ridge and Random Forest; no benchmark selection or tuning.",
+  "models": {
+    "ridge_alpha": 10,
+    "forest_trees": 200,
+    "forest_depth": 3,
+    "forest_min_leaf": 5,
+    "seed": 42
+  },
+  "monthly": "Original features and calendar-month-average baseline; two-month index lag.",
+  "weekly": "Complete non-overlapping Monday\u2013Sunday weeks; lags 2/3/4, three-week sum ending lag 2, lag 52, annual sine/cosine. Lag 52 is 364 days, not exact calendar-year matching.",
+  "weekly_baselines": [
+    "calendar-month average of weekly totals",
+    "seasonal weekly average smoothed over +/- 2.5/52 of annual cycle",
+    "lag-two persistence"
+  ],
+  "purge": "All fitted target period ends must be on/before first forecast's observation cutoff.",
+  "latency": "Assumed seven-day availability allowance; historical data releases/revisions are not archived here."
+}

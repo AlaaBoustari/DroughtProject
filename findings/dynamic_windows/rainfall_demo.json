@@ -1,0 +1,10 @@
+{
+  "target": "rainfall",
+  "target_month": "2025-12",
+  "as_of": "2025-11-25",
+  "data_cutoff": "2025-11-20",
+  "last_30_days_start": "2025-10-22",
+  "prediction": 35.3582,
+  "units": "mm/month",
+  "mode": "archived_data_demo"
+}

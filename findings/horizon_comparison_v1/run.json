@@ -1,0 +1,234 @@
+{
+  "completed_utc": "2026-11-15T17:04:47.784179+00:00",
+  "daily_records": 10958,
+  "cases": [
+    {
+      "case": "10y_monthly",
+      "selected_model": "ridge",
+      "selected_reference": "seasonal_average",
+      "training_examples": 59,
+      "development_examples": 83,
+      "validation_examples": 24,
+      "benchmark_examples": 24,
+      "feature_columns": [
+        "rainfall_latest_mm",
+        "rainfall_previous_mm",
+        "rainfall_older_mm",
+        "rainfall_three_month_total_mm",
+        "rainfall_same_month_last_year_mm",
+        "month_sin",
+        "month_cos"
+      ],
+      "training_target_end": "2021-11-30",
+      "development_target_end": "2023-11-30",
+      "protocol": {
+        "location": {
+          "latitude": 31.6295,
+          "longitude": -7.9811
+        },
+        "archives": [
+          "1996-01-01/2025-12-31",
+          "2016-01-01/2025-12-31"
+        ],
+        "validation_target_years": [
+          2022,
+          2023
+        ],
+        "known_benchmark_target_years": [
+          2024,
+          2025
+        ],
+        "benchmark_warning": "Previously inspected years; exploratory benchmark, not a fresh blind test.",
+        "selection": "Lowest validation MAE among Ridge and Random Forest; no benchmark selection or tuning.",
+        "models": {
+          "ridge_alpha": 10,
+          "forest_trees": 200,
+          "forest_depth": 3,
+          "forest_min_leaf": 5,
+          "seed": 42
+        },
+        "monthly": "Original features and calendar-month-average baseline; two-month index lag.",
+        "weekly": "Complete non-overlapping Monday\u2013Sunday weeks; lags 2/3/4, three-week sum ending lag 2, lag 52, annual sine/cosine. Lag 52 is 364 days, not exact calendar-year matching.",
+        "weekly_baselines": [
+          "calendar-month average of weekly totals",
+          "seasonal weekly average smoothed over +/- 2.5/52 of annual cycle",
+          "lag-two persistence"
+        ],
+        "purge": "All fitted target period ends must be on/before first forecast's observation cutoff.",
+        "latency": "Assumed seven-day availability allowance; historical data releases/revisions are not archived here."
+      }
+    },
+    {
+      "case": "10y_weekly",
+      "selected_model": "random_forest",
+      "selected_reference": "smoothed_weekly_seasonal",
+      "training_examples": 260,
+      "development_examples": 364,
+      "validation_examples": 104,
+      "benchmark_examples": 104,
+      "feature_columns": [
+        "rainfall_latest_mm",
+        "rainfall_previous_mm",
+        "rainfall_older_mm",
+        "rainfall_three_week_total_mm",
+        "rainfall_52_weeks_earlier_mm",
+        "year_sin",
+        "year_cos"
+      ],
+      "training_target_end": "2021-12-26",
+      "development_target_end": "2023-12-24",
+      "protocol": {
+        "location": {
+          "latitude": 31.6295,
+          "longitude": -7.9811
+        },
+        "archives": [
+          "1996-01-01/2025-12-31",
+          "2016-01-01/2025-12-31"
+        ],
+        "validation_target_years": [
+          2022,
+          2023
+        ],
+        "known_benchmark_target_years": [
+          2024,
+          2025
+        ],
+        "benchmark_warning": "Previously inspected years; exploratory benchmark, not a fresh blind test.",
+        "selection": "Lowest validation MAE among Ridge and Random Forest; no benchmark selection or tuning.",
+        "models": {
+          "ridge_alpha": 10,
+          "forest_trees": 200,
+          "forest_depth": 3,
+          "forest_min_leaf": 5,
+          "seed": 42
+        },
+        "monthly": "Original features and calendar-month-average baseline; two-month index lag.",
+        "weekly": "Complete non-overlapping Monday\u2013Sunday weeks; lags 2/3/4, three-week sum ending lag 2, lag 52, annual sine/cosine. Lag 52 is 364 days, not exact calendar-year matching.",
+        "weekly_baselines": [
+          "calendar-month average of weekly totals",
+          "seasonal weekly average smoothed over +/- 2.5/52 of annual cycle",
+          "lag-two persistence"
+        ],
+        "purge": "All fitted target period ends must be on/before first forecast's observation cutoff.",
+        "latency": "Assumed seven-day availability allowance; historical data releases/revisions are not archived here."
+      }
+    },
+    {
+      "case": "30y_monthly",
+      "selected_model": "random_forest",
+      "selected_reference": "seasonal_average",
+      "training_examples": 299,
+      "development_examples": 323,
+      "validation_examples": 24,
+      "benchmark_examples": 24,
+      "feature_columns": [
+        "rainfall_latest_mm",
+        "rainfall_previous_mm",
+        "rainfall_older_mm",
+        "rainfall_three_month_total_mm",
+        "rainfall_same_month_last_year_mm",
+        "month_sin",
+        "month_cos"
+      ],
+      "training_target_end": "2021-11-30",
+      "development_target_end": "2023-11-30",
+      "protocol": {
+        "location": {
+          "latitude": 31.6295,
+          "longitude": -7.9811
+        },
+        "archives": [
+          "1996-01-01/2025-12-31",
+          "2016-01-01/2025-12-31"
+        ],
+        "validation_target_years": [
+          2022,
+          2023
+        ],
+        "known_benchmark_target_years": [
+          2024,
+          2025
+        ],
+        "benchmark_warning": "Previously inspected years; exploratory benchmark, not a fresh blind test.",
+        "selection": "Lowest validation MAE among Ridge and Random Forest; no benchmark selection or tuning.",
+        "models": {
+          "ridge_alpha": 10,
+          "forest_trees": 200,
+          "forest_depth": 3,
+          "forest_min_leaf": 5,
+          "seed": 42
+        },
+        "monthly": "Original features and calendar-month-average baseline; two-month index lag.",
+        "weekly": "Complete non-overlapping Monday\u2013Sunday weeks; lags 2/3/4, three-week sum ending lag 2, lag 52, annual sine/cosine. Lag 52 is 364 days, not exact calendar-year matching.",
+        "weekly_baselines": [
+          "calendar-month average of weekly totals",
+          "seasonal weekly average smoothed over +/- 2.5/52 of annual cycle",
+          "lag-two persistence"
+        ],
+        "purge": "All fitted target period ends must be on/before first forecast's observation cutoff.",
+        "latency": "Assumed seven-day availability allowance; historical data releases/revisions are not archived here."
+      }
+    },
+    {
+      "case": "30y_weekly",
+      "selected_model": "random_forest",
+      "selected_reference": "smoothed_weekly_seasonal",
+      "training_examples": 1304,
+      "development_examples": 1408,
+      "validation_examples": 104,
+      "benchmark_examples": 104,
+      "feature_columns": [
+        "rainfall_latest_mm",
+        "rainfall_previous_mm",
+        "rainfall_older_mm",
+        "rainfall_three_week_total_mm",
+        "rainfall_52_weeks_earlier_mm",
+        "year_sin",
+        "year_cos"
+      ],
+      "training_target_end": "2021-12-26",
+      "development_target_end": "2023-12-24",
+      "protocol": {
+        "location": {
+          "latitude": 31.6295,
+          "longitude": -7.9811
+        },
+        "archives": [
+          "1996-01-01/2025-12-31",
+          "2016-01-01/2025-12-31"
+        ],
+        "validation_target_years": [
+          2022,
+          2023
+        ],
+        "known_benchmark_target_years": [
+          2024,
+          2025
+        ],
+        "benchmark_warning": "Previously inspected years; exploratory benchmark, not a fresh blind test.",
+        "selection": "Lowest validation MAE among Ridge and Random Forest; no benchmark selection or tuning.",
+        "models": {
+          "ridge_alpha": 10,
+          "forest_trees": 200,
+          "forest_depth": 3,
+          "forest_min_leaf": 5,
+          "seed": 42
+        },
+        "monthly": "Original features and calendar-month-average baseline; two-month index lag.",
+        "weekly": "Complete non-overlapping Monday\u2013Sunday weeks; lags 2/3/4, three-week sum ending lag 2, lag 52, annual sine/cosine. Lag 52 is 364 days, not exact calendar-year matching.",
+        "weekly_baselines": [
+          "calendar-month average of weekly totals",
+          "seasonal weekly average smoothed over +/- 2.5/52 of annual cycle",
+          "lag-two persistence"
+        ],
+        "purge": "All fitted target period ends must be on/before first forecast's observation cutoff.",
+        "latency": "Assumed seven-day availability allowance; historical data releases/revisions are not archived here."
+      }
+    }
+  ],
+  "versions": {
+    "pandas": "3.1.1",
+    "sklearn": "1.9.1"
+  }
+}
